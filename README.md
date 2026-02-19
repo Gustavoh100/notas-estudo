@@ -10,3 +10,9 @@ para utilizar o git na minha maquina eu preciso configurara determinados comando
 ```bash 
 git config --global 
 ```
+
+## como configurar Git hub 
+
+## SSH - como configurar a maquina para Git hub
+
+## como criar um repositorio 
