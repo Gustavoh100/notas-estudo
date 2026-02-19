@@ -29,7 +29,7 @@ ssh-add ~/.ssh/id_ed25519
 cd documents/
 ````
 ```
-git clone/
+git clone mais chave ssh 
   ```
   ```
   cd nome do seu repositorio 
