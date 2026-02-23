@@ -27,7 +27,7 @@ ssh-add ~/.ssh/id_ed25519
  para clonar entramos no git bash e colocamos: 
 ```
 cd documents/
-````
+```
 ```
 git clone mais chave ssh 
   ```
@@ -37,3 +37,6 @@ git clone mais chave ssh
   ```
   code . 
   ```
+## criamos portifolio 
+para javascript e portifolio 
+
