@@ -39,4 +39,39 @@ git clone mais chave ssh
   ```
 ## criamos portifolio 
 para javascript e portifolio 
+ 
+ montamos uma equipe para o projeto intragador
 
+## -git hub 
+git 
+alert
+prompt
+criar repositório 
+documetos , dom
+troca para pr-br
+format doc 
+cd doc 
+git clone clonar nome ssh do repositorio com botao direito 
+cd nome do repositorio 
+code . 
+fazer algum css botao colorido alguma coisa !
+h2 
+button 
+scripts src 
+button> dois espaços entre button e > colocando id 
+funçao
+getElementById
+addEventListner 
+atividade :
+function questao1() {
+    //escreva o enunciado aqui 
+    //some 2 numeros 
+    const numero = Number(prompt("Digite um numero:"))
+    const numero2 = Number(prompt("Digite um numero:"))
+    alert(numero + numero2)
+}
+const buttonQuestao1 = document.getElementById("questao1")
+buttonQuestao1.addEventListener('click', () => { questao1() }) 
+
+acabou commit fim de avalição 
+pegar link e enviar para o professor git hub
