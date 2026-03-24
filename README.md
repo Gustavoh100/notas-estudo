@@ -42,6 +42,7 @@ para javascript e portifolio
  
  montamos uma equipe para o projeto intragador
 
+<<<<<<< HEAD
 ## -git hub 
 git 
 alert
@@ -75,3 +76,69 @@ buttonQuestao1.addEventListener('click', () => { questao1() })
 
 acabou commit fim de avalição 
 pegar link e enviar para o professor git hub
+## Git Hub
+
+1-Abra o CMD do computador "Terminal de comando".
+
+2-Use o comando ```git --version``` com o objetivo de conferir a versão do seu ``GIT``.
+
+3-Com o resultado observe o numero da versão caso estiver abaixo de ``2.53.0`` baixe a versão do mais atulizada pelo google.
+
+4-Volte ao Terminal e ultilise o codigo ``git config --global user.name “Seu Nome”`` , com o nome salvo a maquina sempre vai se referir 
+ao nome salvo.
+
+5-Agora coloque o comando ``git config --global user.email “seuEmail@gmail.com”`` esse comando especifico ``` coloque o email que você ultiliza/ultilizara do GIT-HUB```
+
+## Git bash
+
+1-Caso você queira verificar se à alguma key na sua maquina use o comando ``ls -al ~/.ssh``
+
+2-Ultilise o comando ```ssh-keygen -t ed25519 -C “your_email@example.com”``` colocando o gmail que você usou no github.
+
+3-Ultilize o comando ```eval "$(ssh-agent -s)"```
+
+
+
+
+4- digite esse comando ```ssh-add ~/.ssh/id_ed25519```
+
+## clone as pastas do git hub para sua maquina 
+1-use o comando ``cd document/
+
+2- use comando ```git clone``` e cole a chave ssh 
+>>>>>>> edfee94ab7691c8b388eb4b8570054e9f3140f49
+createElement
+h1 id= " pao " >batata</h1>
+script>
+const h1 = document.getElementbyid("pao")
+script>
+ const elementoNovo = documento.createElement("h1")
+ elementoNovo.textContent = "batata" 
+ divExemplo.appendChild(elementoNovo)
+## function
+ function questao1() {...
+
+ }
+const buttonQuestao1 = document.getElementById("questao1")
+buttonQuestao1.addEventListener('click', () => { questao1() }) 
+
+## if e else 
+são estruturas condicionais que permitem executar diferentes blocos de codigo com base em uma condição ou expressão booleana.
+
+if = se  
+else if = se nao  
+
+
+if(ocupado== 1 ){  
+consloge.log("ocupado);
+}else if (ocuupado == 2 ){
+  console.log("reservado");
+}else  
+ ## butão e script 
+ button id="exercicios" > texto do botão - executar exercicios </ button>
+    script src="./pasta script criada "></ script>
+    
+## Dentro da atividade 
+ funcion 
+ getelement 
+ addEVentLister  
