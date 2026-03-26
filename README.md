@@ -141,4 +141,85 @@ consloge.log("ocupado);
 ## Dentro da atividade 
  funcion 
  getelement 
- addEVentLister  
+ addEVentLister
+
+ 
+ ## ajuda 
+ 13
+ const numero = Number(prompt("Digite um numero:"))
+ const media = (numero/2) 
+ if (media = 0 ){
+    alert("par")
+ }else (media !== 0){
+    alert("impar")
+ }
+
+11
+ const numero = Number(prompt("Digite um número: "))
+const numero2 = Number(prompt("Digite outro número: "))
+const operacao = prompt("Digite uma operação matematica:")
+
+if (operacao == "*"){
+    alert(numero*numero2)
+}else if (operacao == "/"){
+    alert(numero/numero2)
+}else if (operacao == "-"){
+    alert(numero-numero2)
+}else if (operacao == "+"){
+    alert(numero+numero2)
+}else{
+    alert("não encontrado!")
+}
+
+const nota1 = Number(prompt("Digite a primeira nota "))
+const nota2 = Number(prompt("Digite a segunda nota "))
+const nota3 = Number(prompt("Digite a terceira nota "))
+
+const media = (nota1 + nota2 + nota3) / 3
+console.log(media)// e ele esta no f12 na aba console
+
+//Aprovado" se a média for maior ou igual a 7
+//"Recuperação" se for maior ou igual a 5 e menor que 7
+//"Reprovado" se for menor que 5
+if (media < 5) {
+    alert("REPROVADO")
+} else if (media >= 5 && media < 7) {
+    alert("RECUPERAÇÃO")
+} else if (media <= 10) {
+    alert("APROVADO")
+} else {
+    alert("não existe")
+}
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/styles.css">
+    <title>Document</title>
+</head>
+<body>
+  <header id="exemplo"  ></header>
+    <header>
+        um titulo qualquer
+    </header>
+
+    <main>
+        <h2>Minha pagina de Exercicios</h2>
+    
+        <button id="exercicio2">Executar Exercicio 2</button>
+        <button id="exercicio3">Executar Exercicio 3</button>
+        <button id="exercicio4">Executar Exercicio 4</button>
+        <button id="exercicio5">Executar Exercicio 5</button>
+        <button id="exercicio6">Executar Exercicio 6</button>
+        <button id="exercicio7">Executar Exercicio 7</button>
+        <button id="exercicio8">Executar Exercicio 8</button>
+      
+    </main>
+
+    <footer id="footer" >
+        todos os direitors reservados - Gustavo Henrique -2026
+    </footer>
+    <script src="./script/exercicios_13.js"></script>
+</body>
+
+</html>
